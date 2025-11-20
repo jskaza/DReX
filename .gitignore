@@ -1,0 +1,8 @@
+old/
+*__pycache__*
+hf_token.txt
+supp/
+d2s/
+ic9600/
+pascal_voc/
+savoias/
