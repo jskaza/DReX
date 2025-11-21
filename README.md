@@ -2,6 +2,8 @@
 
 Implementation of the paper _DReX: Pure Vision Fusion of Self-Supervised and Convolutional Representations for Image Complexity Prediction_.
 
+![DRex](https://raw.githubusercontent.com/jskaza/DReX/refs/heads/main/fig1.pdf)
+
 ## Dependencies
 ```bash
 matplotlib==3.10.7
