@@ -51,8 +51,8 @@ def main():
     # ------------------------------
     print("Loading dataset...")
     train_dataset = ComplexityDataset(
-        txt_file="ic9600/train.txt",
-        zip_file="ic9600/images.zip"
+        txt_file="train.txt",
+        zip_file="images.zip"
     )
     print(f"✓ Loaded {len(train_dataset)} samples")
 
@@ -141,11 +141,11 @@ def main():
     # ------------------------------
     model.fusion.load_state_dict(ema_fusion.state_dict())
     model.head.load_state_dict(ema_head.state_dict())
-    torch.save(model.state_dict(), "results/DReX.pth")
+    torch.save(model.state_dict(), "DReX.pth")
 
 
     
-    print(f"\n✓ Training complete. Model saved to results/DReX.pth\n{'='*60}")
+    print(f"\n✓ Training complete. Model saved to DReX.pth\n{'='*60}")
 
 
 if __name__ == "__main__":

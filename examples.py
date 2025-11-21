@@ -7,7 +7,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = DReX(device=device).to(device)
 
 # Load trained model
-checkpoint = torch.load("results/DReX.pth", map_location=device)
+checkpoint = torch.load("DReX.pth", map_location=device)
     
 # Handle different checkpoint formats
 if isinstance(checkpoint, dict) and "model_state" in checkpoint:
