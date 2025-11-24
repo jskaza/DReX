@@ -1,6 +1,6 @@
 # DReX: Pure Vision Fusion of Self-Supervised and Convolutional Representations for Image Complexity Prediction
 
-Implementation for the preprint _DReX: Pure Vision Fusion of Self-Supervised and Convolutional Representations for Image Complexity Prediction_.
+Implementation for the preprint [_DReX: Pure Vision Fusion of Self-Supervised and Convolutional Representations for Image Complexity Prediction_](https://arxiv.org/abs/2511.16991).
 
 ![DRex](https://raw.githubusercontent.com/jskaza/DReX/refs/heads/main/fig1.png)
 
